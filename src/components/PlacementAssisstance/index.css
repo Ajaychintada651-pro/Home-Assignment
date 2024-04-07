@@ -1,0 +1,24 @@
+.placementAssistance-cont {
+  background-color: rgb(245, 218, 245);
+  margin-top: 5%;
+  padding: 40px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 27px;
+  /* padding: 30px; */
+  /* height: 30px; */
+}
+
+/* .special-style {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: rgb(10, 37, 112);
+} */
+
+.headings {
+  font-size: 23px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.841);
+}

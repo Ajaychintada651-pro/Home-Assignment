@@ -1,0 +1,37 @@
+.last-sec-bg-container {
+  margin-top: 3%;
+  /* height: 100vh; */
+  background-color: rgb(234, 254, 253);
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.cont-2 {
+  height: 200px;
+}
+
+.last-sec-heading {
+  font-size: 29px;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+.enroll-btn {
+  background-color: rgb(233, 63, 63);
+  padding: 13px;
+  border: none;
+  color: white;
+  width: 20ex;
+}
+
+@media screen and (max-width: 720px) {
+  .last-sec-bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

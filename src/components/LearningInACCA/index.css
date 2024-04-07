@@ -1,0 +1,60 @@
+.learning-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  gap: 30px;
+}
+
+.main-heading {
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.learning-content-card {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  height: 20rem;
+  width: 20rem;
+}
+
+.top-part {
+  background-color: rgb(10, 37, 112);
+  font-weight: bold;
+  width: rem;
+  text-align: center;
+  font-size: 16px;
+  /* height: 80px; */
+  color: white;
+  height: 4rem;
+}
+
+.btm-part {
+  background-color: rgb(10, 37, 112);
+  width: 20rem;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  height: 3rem;
+  color: white;
+  /* padding-top: 20px;
+  margin-bottom: 20px; */
+}
+
+.list {
+  height: 13rem;
+}
+
+@media screen and (max-width: 720px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .learning-content-card {
+    margin-bottom: 30px;
+  }
+}
